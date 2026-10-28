@@ -1,0 +1,91 @@
+# Core scientific stack
+numpy>=1.23
+scipy
+pandas>=1.5
+matplotlib
+seaborn==0.11.1
+statsmodels
+xarray
+
+# Bayesian / inference tools (your main pipeline)
+bilby @ git+https://git.ligo.org/michael.williams/bilby.git@4f06e388c0dc791d1c22ca8a72e3fa9f8caa556c
+dynesty==1.0.1
+emcee==3.0.2
+nessai==0.3.1
+corner==2.2.1
+arviz
+nflows==0.14
+numdifftools==0.9.39
+
+# Deep learning / autodiff stack
+torch
+jax
+jaxlib
+opt-einsum
+
+# Data / IO
+h5py
+netCDF4
+tables
+joblib
+dill
+filelock
+
+# Stats / misc scientific utilities
+patsy
+pyparsing==2.4.7
+python-dateutil
+pytz
+packaging
+six
+
+# Progress / logging
+tqdm==4.59.0
+fastprogress
+
+# Plotting / visualization
+Pillow
+cycler
+
+# Machine learning / tensorboard ecosystem
+tensorboard==2.4.1
+tensorboard-plugin-wit==1.8.0
+
+# Google / auth (needed by some ML deps)
+google-auth==1.28.0
+google-auth-oauthlib==0.4.3
+rsa
+
+# Networking / utils
+requests==2.25.1
+urllib3==1.26.4
+idna==2.10
+chardet==4.0.0
+certifi==2020.12.5
+
+# Formatting / parsing
+cffi
+pycparser
+typing-extensions
+
+# Misc small deps
+cachetools
+protobuf==3.15.6
+absl-py
+grpcio==1.36.1
+Markdown==3.3.4
+Werkzeug==1.0.1
+Mako
+MarkupSafe
+
+# Optional / legacy scientific stack
+cftime
+pyasn1
+pyasn1-modules
+oauthlib
+requests-oauthlib
+olefile
+semver
+update==0.0.1
+style==1.1.0
+mock==4.0.3
